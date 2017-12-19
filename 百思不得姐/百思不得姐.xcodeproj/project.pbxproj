@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0F870B1FE767DB00DD9A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F870A1FE767DB00DD9A67 /* AppDelegate.m */; };
-		0A0F870E1FE767DB00DD9A67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F870D1FE767DB00DD9A67 /* ViewController.m */; };
-		0A0F87111FE767DB00DD9A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F870F1FE767DB00DD9A67 /* Main.storyboard */; };
 		0A0F87131FE767DB00DD9A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87121FE767DB00DD9A67 /* Assets.xcassets */; };
 		0A0F87161FE767DB00DD9A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87141FE767DB00DD9A67 /* LaunchScreen.storyboard */; };
-		0A0F87191FE767DB00DD9A67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87181FE767DB00DD9A67 /* main.m */; };
+		0A0F87371FE76BE200DD9A67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87231FE76BE200DD9A67 /* main.m */; };
+		0A0F87381FE76BE200DD9A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87261FE76BE200DD9A67 /* AppDelegate.m */; };
+		0A0F873B1FE7717800DD9A67 /* LTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F873A1FE7717800DD9A67 /* LTTabBarController.m */; };
+		0A0F873E1FE7743F00DD9A67 /* LTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F873D1FE7743F00DD9A67 /* LTNavigationController.m */; };
+		0A0F87411FE7757900DD9A67 /* LTEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87401FE7757900DD9A67 /* LTEssenceViewController.m */; };
+		0A0F87441FE77B4D00DD9A67 /* LTNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87431FE77B4D00DD9A67 /* LTNewViewController.m */; };
+		0A0F87471FE77B6C00DD9A67 /* LTFrendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87461FE77B6C00DD9A67 /* LTFrendTrendsViewController.m */; };
+		0A0F874A1FE77B8500DD9A67 /* LTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87491FE77B8500DD9A67 /* LTMeViewController.m */; };
+		0A0F874D1FE7805D00DD9A67 /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F874C1FE7805D00DD9A67 /* LTTabBar.m */; };
+		0A0F87501FE782C900DD9A67 /* UIView+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F874F1FE782C900DD9A67 /* UIView+LTExtension.m */; };
+		0A0F87541FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87531FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m */; };
+		0A0F87561FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87551FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib */; };
+		0A0F875A1FE8CCC800DD9A67 /* LTRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */; };
+		0A0F875B1FE8CCC800DD9A67 /* LTRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */; };
+		DAA2258AF0FAEF6664AD8768 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3511D973F69BEF4CF319B2C /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A0F87061FE767DB00DD9A67 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A0F87091FE767DB00DD9A67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0A0F870A1FE767DB00DD9A67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A0F870C1FE767DB00DD9A67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A0F870D1FE767DB00DD9A67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0A0F87101FE767DB00DD9A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A0F87121FE767DB00DD9A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0F87151FE767DB00DD9A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A0F87171FE767DB00DD9A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A0F87181FE767DB00DD9A67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A0F87211FE76BE200DD9A67 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A0F87231FE76BE200DD9A67 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A0F87261FE76BE200DD9A67 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A0F87391FE7717800DD9A67 /* LTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTabBarController.h; sourceTree = "<group>"; };
+		0A0F873A1FE7717800DD9A67 /* LTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTabBarController.m; sourceTree = "<group>"; };
+		0A0F873C1FE7743F00DD9A67 /* LTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTNavigationController.h; sourceTree = "<group>"; };
+		0A0F873D1FE7743F00DD9A67 /* LTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTNavigationController.m; sourceTree = "<group>"; };
+		0A0F873F1FE7757900DD9A67 /* LTEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTEssenceViewController.h; sourceTree = "<group>"; };
+		0A0F87401FE7757900DD9A67 /* LTEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTEssenceViewController.m; sourceTree = "<group>"; };
+		0A0F87421FE77B4D00DD9A67 /* LTNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTNewViewController.h; sourceTree = "<group>"; };
+		0A0F87431FE77B4D00DD9A67 /* LTNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTNewViewController.m; sourceTree = "<group>"; };
+		0A0F87451FE77B6C00DD9A67 /* LTFrendTrendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTFrendTrendsViewController.h; sourceTree = "<group>"; };
+		0A0F87461FE77B6C00DD9A67 /* LTFrendTrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFrendTrendsViewController.m; sourceTree = "<group>"; };
+		0A0F87481FE77B8500DD9A67 /* LTMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMeViewController.h; sourceTree = "<group>"; };
+		0A0F87491FE77B8500DD9A67 /* LTMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMeViewController.m; sourceTree = "<group>"; };
+		0A0F874B1FE7805D00DD9A67 /* LTTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTabBar.h; sourceTree = "<group>"; };
+		0A0F874C1FE7805D00DD9A67 /* LTTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTabBar.m; sourceTree = "<group>"; };
+		0A0F874E1FE782C900DD9A67 /* UIView+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LTExtension.h"; sourceTree = "<group>"; };
+		0A0F874F1FE782C900DD9A67 /* UIView+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTExtension.m"; sourceTree = "<group>"; };
+		0A0F87511FE7862100DD9A67 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		0A0F87521FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LTExtension.h"; sourceTree = "<group>"; };
+		0A0F87531FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LTExtension.m"; sourceTree = "<group>"; };
+		0A0F87551FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTFrendTrendsViewController.xib; sourceTree = "<group>"; };
+		0A0F87571FE8CCC800DD9A67 /* LTRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendViewController.h; sourceTree = "<group>"; };
+		0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendViewController.m; sourceTree = "<group>"; };
+		0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTRecommendViewController.xib; sourceTree = "<group>"; };
+		61ED438E78C923C415C8526B /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		E3511D973F69BEF4CF319B2C /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02B8A7E79CEC1881B34A55E /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA2258AF0FAEF6664AD8768 /* libPods-百思不得姐.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +79,8 @@
 			children = (
 				0A0F87081FE767DB00DD9A67 /* 百思不得姐 */,
 				0A0F87071FE767DB00DD9A67 /* Products */,
+				E364E73F6EBE8E9C122E9F2F /* Pods */,
+				D92697AE4C4E9FBFFF3D7F19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +95,222 @@
 		0A0F87081FE767DB00DD9A67 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				0A0F87091FE767DB00DD9A67 /* AppDelegate.h */,
-				0A0F870A1FE767DB00DD9A67 /* AppDelegate.m */,
-				0A0F870C1FE767DB00DD9A67 /* ViewController.h */,
-				0A0F870D1FE767DB00DD9A67 /* ViewController.m */,
-				0A0F870F1FE767DB00DD9A67 /* Main.storyboard */,
+				0A0F871F1FE76BE200DD9A67 /* Classes */,
 				0A0F87121FE767DB00DD9A67 /* Assets.xcassets */,
 				0A0F87141FE767DB00DD9A67 /* LaunchScreen.storyboard */,
 				0A0F87171FE767DB00DD9A67 /* Info.plist */,
-				0A0F87181FE767DB00DD9A67 /* main.m */,
 			);
 			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		0A0F871F1FE76BE200DD9A67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F872B1FE76BE200DD9A67 /* Essence */,
+				0A0F87331FE76BE200DD9A67 /* New */,
+				0A0F87271FE76BE200DD9A67 /* FrendTrends */,
+				0A0F872F1FE76BE200DD9A67 /* Me */,
+				0A0F87201FE76BE200DD9A67 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A0F87201FE76BE200DD9A67 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87211FE76BE200DD9A67 /* AppDelegate.h */,
+				0A0F87261FE76BE200DD9A67 /* AppDelegate.m */,
+				0A0F874E1FE782C900DD9A67 /* UIView+LTExtension.h */,
+				0A0F874F1FE782C900DD9A67 /* UIView+LTExtension.m */,
+				0A0F87521FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.h */,
+				0A0F87531FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m */,
+				0A0F87231FE76BE200DD9A67 /* main.m */,
+				0A0F87511FE7862100DD9A67 /* PrefixHeader.h */,
+				0A0F87221FE76BE200DD9A67 /* Controller */,
+				0A0F87241FE76BE200DD9A67 /* Model */,
+				0A0F87251FE76BE200DD9A67 /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A0F87221FE76BE200DD9A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87391FE7717800DD9A67 /* LTTabBarController.h */,
+				0A0F873A1FE7717800DD9A67 /* LTTabBarController.m */,
+				0A0F873C1FE7743F00DD9A67 /* LTNavigationController.h */,
+				0A0F873D1FE7743F00DD9A67 /* LTNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A0F87241FE76BE200DD9A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A0F87251FE76BE200DD9A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F874B1FE7805D00DD9A67 /* LTTabBar.h */,
+				0A0F874C1FE7805D00DD9A67 /* LTTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A0F87271FE76BE200DD9A67 /* FrendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87281FE76BE200DD9A67 /* Controller */,
+				0A0F87291FE76BE200DD9A67 /* Model */,
+				0A0F872A1FE76BE200DD9A67 /* View */,
+			);
+			path = FrendTrends;
+			sourceTree = "<group>";
+		};
+		0A0F87281FE76BE200DD9A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87451FE77B6C00DD9A67 /* LTFrendTrendsViewController.h */,
+				0A0F87461FE77B6C00DD9A67 /* LTFrendTrendsViewController.m */,
+				0A0F87551FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib */,
+				0A0F87571FE8CCC800DD9A67 /* LTRecommendViewController.h */,
+				0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */,
+				0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A0F87291FE76BE200DD9A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A0F872A1FE76BE200DD9A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A0F872B1FE76BE200DD9A67 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F872C1FE76BE200DD9A67 /* Controller */,
+				0A0F872D1FE76BE200DD9A67 /* Model */,
+				0A0F872E1FE76BE200DD9A67 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		0A0F872C1FE76BE200DD9A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F873F1FE7757900DD9A67 /* LTEssenceViewController.h */,
+				0A0F87401FE7757900DD9A67 /* LTEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A0F872D1FE76BE200DD9A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A0F872E1FE76BE200DD9A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A0F872F1FE76BE200DD9A67 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87301FE76BE200DD9A67 /* Controller */,
+				0A0F87311FE76BE200DD9A67 /* Model */,
+				0A0F87321FE76BE200DD9A67 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		0A0F87301FE76BE200DD9A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87481FE77B8500DD9A67 /* LTMeViewController.h */,
+				0A0F87491FE77B8500DD9A67 /* LTMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A0F87311FE76BE200DD9A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A0F87321FE76BE200DD9A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A0F87331FE76BE200DD9A67 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87341FE76BE200DD9A67 /* Controller */,
+				0A0F87351FE76BE200DD9A67 /* Model */,
+				0A0F87361FE76BE200DD9A67 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		0A0F87341FE76BE200DD9A67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F87421FE77B4D00DD9A67 /* LTNewViewController.h */,
+				0A0F87431FE77B4D00DD9A67 /* LTNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A0F87351FE76BE200DD9A67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A0F87361FE76BE200DD9A67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D92697AE4C4E9FBFFF3D7F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3511D973F69BEF4CF319B2C /* libPods-百思不得姐.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E364E73F6EBE8E9C122E9F2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61ED438E78C923C415C8526B /* Pods-百思不得姐.debug.xcconfig */,
+				F02B8A7E79CEC1881B34A55E /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0F871C1FE767DB00DD9A67 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
 			buildPhases = (
+				91B502D9B11F9558CE15029F /* [CP] Check Pods Manifest.lock */,
 				0A0F87021FE767DB00DD9A67 /* Sources */,
 				0A0F87031FE767DB00DD9A67 /* Frameworks */,
 				0A0F87041FE767DB00DD9A67 /* Resources */,
+				A99DDFA68AE207EFFA486AEE /* [CP] Embed Pods Frameworks */,
+				975E80496DDC51AB348A616E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,36 +374,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0F87561FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib in Resources */,
 				0A0F87161FE767DB00DD9A67 /* LaunchScreen.storyboard in Resources */,
 				0A0F87131FE767DB00DD9A67 /* Assets.xcassets in Resources */,
-				0A0F87111FE767DB00DD9A67 /* Main.storyboard in Resources */,
+				0A0F875B1FE8CCC800DD9A67 /* LTRecommendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91B502D9B11F9558CE15029F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-百思不得姐-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		975E80496DDC51AB348A616E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99DDFA68AE207EFFA486AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A0F87021FE767DB00DD9A67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0F870E1FE767DB00DD9A67 /* ViewController.m in Sources */,
-				0A0F87191FE767DB00DD9A67 /* main.m in Sources */,
-				0A0F870B1FE767DB00DD9A67 /* AppDelegate.m in Sources */,
+				0A0F87541FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m in Sources */,
+				0A0F874A1FE77B8500DD9A67 /* LTMeViewController.m in Sources */,
+				0A0F87381FE76BE200DD9A67 /* AppDelegate.m in Sources */,
+				0A0F875A1FE8CCC800DD9A67 /* LTRecommendViewController.m in Sources */,
+				0A0F873B1FE7717800DD9A67 /* LTTabBarController.m in Sources */,
+				0A0F87471FE77B6C00DD9A67 /* LTFrendTrendsViewController.m in Sources */,
+				0A0F87501FE782C900DD9A67 /* UIView+LTExtension.m in Sources */,
+				0A0F87371FE76BE200DD9A67 /* main.m in Sources */,
+				0A0F873E1FE7743F00DD9A67 /* LTNavigationController.m in Sources */,
+				0A0F874D1FE7805D00DD9A67 /* LTTabBar.m in Sources */,
+				0A0F87411FE7757900DD9A67 /* LTEssenceViewController.m in Sources */,
+				0A0F87441FE77B4D00DD9A67 /* LTNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A0F870F1FE767DB00DD9A67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A0F87101FE767DB00DD9A67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A0F87141FE767DB00DD9A67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -208,6 +509,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other/PrefixHeader.h";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -261,6 +563,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other/PrefixHeader.h";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -276,8 +579,10 @@
 		};
 		0A0F871D1FE767DB00DD9A67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61ED438E78C923C415C8526B /* Pods-百思不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -289,8 +594,10 @@
 		};
 		0A0F871E1FE767DB00DD9A67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02B8A7E79CEC1881B34A55E /* Pods-百思不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

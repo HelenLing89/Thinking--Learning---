@@ -23,6 +23,27 @@
 		0A0F87561FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87551FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib */; };
 		0A0F875A1FE8CCC800DD9A67 /* LTRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */; };
 		0A0F875B1FE8CCC800DD9A67 /* LTRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */; };
+		0A3D8C021FEEB29A009A0FD8 /* LTRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8C011FEEB29A009A0FD8 /* LTRecommendTagViewController.m */; };
+		0A3D8C061FEEB308009A0FD8 /* LTRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8C041FEEB308009A0FD8 /* LTRecommendTagCell.m */; };
+		0A3D8C071FEEB308009A0FD8 /* LTRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D8C051FEEB308009A0FD8 /* LTRecommendTagCell.xib */; };
+		0A3D8C0A1FEF3359009A0FD8 /* LTTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8C091FEF3359009A0FD8 /* LTTags.m */; };
+		0A3D8C0D1FF0CEE7009A0FD8 /* LTTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8C0C1FF0CEE7009A0FD8 /* LTTopicViewController.m */; };
+		0A3D8C111FF13988009A0FD8 /* LTTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8C0F1FF13988009A0FD8 /* LTTopicCell.m */; };
+		0A3D8C121FF13988009A0FD8 /* LTTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D8C101FF13988009A0FD8 /* LTTopicCell.xib */; };
+		0A63CD231FF22C2A00115985 /* LTConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63CD221FF22C2A00115985 /* LTConst.m */; };
+		0A63CD261FF25E0000115985 /* LTTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63CD251FF25E0000115985 /* LTTopic.m */; };
+		0A63CD2B1FF33B6300115985 /* NSDate+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63CD2A1FF33B6300115985 /* NSDate+LTExtension.m */; };
+		0AD8ED4C1FEA9A8600E9DD9D /* LTRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED4B1FEA9A8600E9DD9D /* LTRecommendCategory.m */; };
+		0AD8ED501FEA9D2400E9DD9D /* LTRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED4E1FEA9D2400E9DD9D /* LTRecommendCategoryCell.m */; };
+		0AD8ED511FEA9D2400E9DD9D /* LTRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD8ED4F1FEA9D2400E9DD9D /* LTRecommendCategoryCell.xib */; };
+		0AD8ED541FEAAAEA00E9DD9D /* LTRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED531FEAAAEA00E9DD9D /* LTRecommendModel.m */; };
+		0AD8ED571FEB45DD00E9DD9D /* LTRecommentUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED561FEB45DD00E9DD9D /* LTRecommentUser.m */; };
+		0AD8ED5B1FEB460100E9DD9D /* LTRecommentUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED591FEB460100E9DD9D /* LTRecommentUserCell.m */; };
+		0AD8ED5C1FEB460100E9DD9D /* LTRecommentUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD8ED5A1FEB460100E9DD9D /* LTRecommentUserCell.xib */; };
+		0AD8ED601FEBF95D00E9DD9D /* LTLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED5E1FEBF95D00E9DD9D /* LTLoginRegisterViewController.m */; };
+		0AD8ED611FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD8ED5F1FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib */; };
+		326E66F21FEE1D6700D2BCF3 /* LTVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E66F11FEE1D6700D2BCF3 /* LTVerticalButton.m */; };
+		326E66F51FEE3B0A00D2BCF3 /* LTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E66F41FEE3B0A00D2BCF3 /* LTTextField.m */; };
 		DAA2258AF0FAEF6664AD8768 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3511D973F69BEF4CF319B2C /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +78,43 @@
 		0A0F87571FE8CCC800DD9A67 /* LTRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendViewController.h; sourceTree = "<group>"; };
 		0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendViewController.m; sourceTree = "<group>"; };
 		0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTRecommendViewController.xib; sourceTree = "<group>"; };
+		0A3D8C001FEEB29A009A0FD8 /* LTRecommendTagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendTagViewController.h; sourceTree = "<group>"; };
+		0A3D8C011FEEB29A009A0FD8 /* LTRecommendTagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendTagViewController.m; sourceTree = "<group>"; };
+		0A3D8C031FEEB308009A0FD8 /* LTRecommendTagCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendTagCell.h; sourceTree = "<group>"; };
+		0A3D8C041FEEB308009A0FD8 /* LTRecommendTagCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendTagCell.m; sourceTree = "<group>"; };
+		0A3D8C051FEEB308009A0FD8 /* LTRecommendTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTRecommendTagCell.xib; sourceTree = "<group>"; };
+		0A3D8C081FEF3359009A0FD8 /* LTTags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTags.h; sourceTree = "<group>"; };
+		0A3D8C091FEF3359009A0FD8 /* LTTags.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTags.m; sourceTree = "<group>"; };
+		0A3D8C0B1FF0CEE7009A0FD8 /* LTTopicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTopicViewController.h; sourceTree = "<group>"; };
+		0A3D8C0C1FF0CEE7009A0FD8 /* LTTopicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopicViewController.m; sourceTree = "<group>"; };
+		0A3D8C0E1FF13988009A0FD8 /* LTTopicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTopicCell.h; sourceTree = "<group>"; };
+		0A3D8C0F1FF13988009A0FD8 /* LTTopicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopicCell.m; sourceTree = "<group>"; };
+		0A3D8C101FF13988009A0FD8 /* LTTopicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTTopicCell.xib; sourceTree = "<group>"; };
+		0A63CD211FF22C2A00115985 /* LTConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTConst.h; sourceTree = "<group>"; };
+		0A63CD221FF22C2A00115985 /* LTConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTConst.m; sourceTree = "<group>"; };
+		0A63CD241FF25E0000115985 /* LTTopic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTopic.h; sourceTree = "<group>"; };
+		0A63CD251FF25E0000115985 /* LTTopic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopic.m; sourceTree = "<group>"; };
+		0A63CD291FF33B6300115985 /* NSDate+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LTExtension.h"; sourceTree = "<group>"; };
+		0A63CD2A1FF33B6300115985 /* NSDate+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LTExtension.m"; sourceTree = "<group>"; };
+		0AD8ED4A1FEA9A8600E9DD9D /* LTRecommendCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendCategory.h; sourceTree = "<group>"; };
+		0AD8ED4B1FEA9A8600E9DD9D /* LTRecommendCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendCategory.m; sourceTree = "<group>"; };
+		0AD8ED4D1FEA9D2400E9DD9D /* LTRecommendCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendCategoryCell.h; sourceTree = "<group>"; };
+		0AD8ED4E1FEA9D2400E9DD9D /* LTRecommendCategoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendCategoryCell.m; sourceTree = "<group>"; };
+		0AD8ED4F1FEA9D2400E9DD9D /* LTRecommendCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		0AD8ED521FEAAAEA00E9DD9D /* LTRecommendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendModel.h; sourceTree = "<group>"; };
+		0AD8ED531FEAAAEA00E9DD9D /* LTRecommendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendModel.m; sourceTree = "<group>"; };
+		0AD8ED551FEB45DD00E9DD9D /* LTRecommentUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommentUser.h; sourceTree = "<group>"; };
+		0AD8ED561FEB45DD00E9DD9D /* LTRecommentUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommentUser.m; sourceTree = "<group>"; };
+		0AD8ED581FEB460100E9DD9D /* LTRecommentUserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommentUserCell.h; sourceTree = "<group>"; };
+		0AD8ED591FEB460100E9DD9D /* LTRecommentUserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommentUserCell.m; sourceTree = "<group>"; };
+		0AD8ED5A1FEB460100E9DD9D /* LTRecommentUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTRecommentUserCell.xib; sourceTree = "<group>"; };
+		0AD8ED5D1FEBF95D00E9DD9D /* LTLoginRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLoginRegisterViewController.h; sourceTree = "<group>"; };
+		0AD8ED5E1FEBF95D00E9DD9D /* LTLoginRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTLoginRegisterViewController.m; sourceTree = "<group>"; };
+		0AD8ED5F1FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		326E66F01FEE1D6700D2BCF3 /* LTVerticalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTVerticalButton.h; sourceTree = "<group>"; };
+		326E66F11FEE1D6700D2BCF3 /* LTVerticalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVerticalButton.m; sourceTree = "<group>"; };
+		326E66F31FEE3B0A00D2BCF3 /* LTTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTextField.h; sourceTree = "<group>"; };
+		326E66F41FEE3B0A00D2BCF3 /* LTTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTextField.m; sourceTree = "<group>"; };
 		61ED438E78C923C415C8526B /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		E3511D973F69BEF4CF319B2C /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02B8A7E79CEC1881B34A55E /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,10 +178,14 @@
 			children = (
 				0A0F87211FE76BE200DD9A67 /* AppDelegate.h */,
 				0A0F87261FE76BE200DD9A67 /* AppDelegate.m */,
+				0A63CD211FF22C2A00115985 /* LTConst.h */,
+				0A63CD221FF22C2A00115985 /* LTConst.m */,
 				0A0F874E1FE782C900DD9A67 /* UIView+LTExtension.h */,
 				0A0F874F1FE782C900DD9A67 /* UIView+LTExtension.m */,
 				0A0F87521FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.h */,
 				0A0F87531FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m */,
+				0A63CD291FF33B6300115985 /* NSDate+LTExtension.h */,
+				0A63CD2A1FF33B6300115985 /* NSDate+LTExtension.m */,
 				0A0F87231FE76BE200DD9A67 /* main.m */,
 				0A0F87511FE7862100DD9A67 /* PrefixHeader.h */,
 				0A0F87221FE76BE200DD9A67 /* Controller */,
@@ -179,6 +241,9 @@
 				0A0F87571FE8CCC800DD9A67 /* LTRecommendViewController.h */,
 				0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */,
 				0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */,
+				0AD8ED5D1FEBF95D00E9DD9D /* LTLoginRegisterViewController.h */,
+				0AD8ED5E1FEBF95D00E9DD9D /* LTLoginRegisterViewController.m */,
+				0AD8ED5F1FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +251,12 @@
 		0A0F87291FE76BE200DD9A67 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0AD8ED521FEAAAEA00E9DD9D /* LTRecommendModel.h */,
+				0AD8ED531FEAAAEA00E9DD9D /* LTRecommendModel.m */,
+				0AD8ED4A1FEA9A8600E9DD9D /* LTRecommendCategory.h */,
+				0AD8ED4B1FEA9A8600E9DD9D /* LTRecommendCategory.m */,
+				0AD8ED551FEB45DD00E9DD9D /* LTRecommentUser.h */,
+				0AD8ED561FEB45DD00E9DD9D /* LTRecommentUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +264,16 @@
 		0A0F872A1FE76BE200DD9A67 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0AD8ED4D1FEA9D2400E9DD9D /* LTRecommendCategoryCell.h */,
+				0AD8ED4E1FEA9D2400E9DD9D /* LTRecommendCategoryCell.m */,
+				0AD8ED4F1FEA9D2400E9DD9D /* LTRecommendCategoryCell.xib */,
+				0AD8ED581FEB460100E9DD9D /* LTRecommentUserCell.h */,
+				0AD8ED591FEB460100E9DD9D /* LTRecommentUserCell.m */,
+				0AD8ED5A1FEB460100E9DD9D /* LTRecommentUserCell.xib */,
+				326E66F01FEE1D6700D2BCF3 /* LTVerticalButton.h */,
+				326E66F11FEE1D6700D2BCF3 /* LTVerticalButton.m */,
+				326E66F31FEE3B0A00D2BCF3 /* LTTextField.h */,
+				326E66F41FEE3B0A00D2BCF3 /* LTTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +293,10 @@
 			children = (
 				0A0F873F1FE7757900DD9A67 /* LTEssenceViewController.h */,
 				0A0F87401FE7757900DD9A67 /* LTEssenceViewController.m */,
+				0A3D8C001FEEB29A009A0FD8 /* LTRecommendTagViewController.h */,
+				0A3D8C011FEEB29A009A0FD8 /* LTRecommendTagViewController.m */,
+				0A3D8C0B1FF0CEE7009A0FD8 /* LTTopicViewController.h */,
+				0A3D8C0C1FF0CEE7009A0FD8 /* LTTopicViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +304,10 @@
 		0A0F872D1FE76BE200DD9A67 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D8C081FEF3359009A0FD8 /* LTTags.h */,
+				0A3D8C091FEF3359009A0FD8 /* LTTags.m */,
+				0A63CD241FF25E0000115985 /* LTTopic.h */,
+				0A63CD251FF25E0000115985 /* LTTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +315,12 @@
 		0A0F872E1FE76BE200DD9A67 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D8C031FEEB308009A0FD8 /* LTRecommendTagCell.h */,
+				0A3D8C041FEEB308009A0FD8 /* LTRecommendTagCell.m */,
+				0A3D8C051FEEB308009A0FD8 /* LTRecommendTagCell.xib */,
+				0A3D8C0E1FF13988009A0FD8 /* LTTopicCell.h */,
+				0A3D8C0F1FF13988009A0FD8 /* LTTopicCell.m */,
+				0A3D8C101FF13988009A0FD8 /* LTTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,6 +437,7 @@
 		0A0F86FE1FE767DB00DD9A67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LT;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = helen;
 				TargetAttributes = {
@@ -374,8 +470,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD8ED511FEA9D2400E9DD9D /* LTRecommendCategoryCell.xib in Resources */,
+				0AD8ED5C1FEB460100E9DD9D /* LTRecommentUserCell.xib in Resources */,
+				0AD8ED611FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib in Resources */,
 				0A0F87561FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib in Resources */,
+				0A3D8C121FF13988009A0FD8 /* LTTopicCell.xib in Resources */,
 				0A0F87161FE767DB00DD9A67 /* LaunchScreen.storyboard in Resources */,
+				0A3D8C071FEEB308009A0FD8 /* LTRecommendTagCell.xib in Resources */,
 				0A0F87131FE767DB00DD9A67 /* Assets.xcassets in Resources */,
 				0A0F875B1FE8CCC800DD9A67 /* LTRecommendViewController.xib in Resources */,
 			);
@@ -409,6 +510,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -442,16 +544,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A63CD261FF25E0000115985 /* LTTopic.m in Sources */,
 				0A0F87541FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m in Sources */,
+				0AD8ED601FEBF95D00E9DD9D /* LTLoginRegisterViewController.m in Sources */,
 				0A0F874A1FE77B8500DD9A67 /* LTMeViewController.m in Sources */,
 				0A0F87381FE76BE200DD9A67 /* AppDelegate.m in Sources */,
+				0AD8ED4C1FEA9A8600E9DD9D /* LTRecommendCategory.m in Sources */,
+				0A3D8C0A1FEF3359009A0FD8 /* LTTags.m in Sources */,
+				0A3D8C061FEEB308009A0FD8 /* LTRecommendTagCell.m in Sources */,
 				0A0F875A1FE8CCC800DD9A67 /* LTRecommendViewController.m in Sources */,
+				326E66F21FEE1D6700D2BCF3 /* LTVerticalButton.m in Sources */,
+				0AD8ED571FEB45DD00E9DD9D /* LTRecommentUser.m in Sources */,
 				0A0F873B1FE7717800DD9A67 /* LTTabBarController.m in Sources */,
+				0A3D8C111FF13988009A0FD8 /* LTTopicCell.m in Sources */,
+				326E66F51FEE3B0A00D2BCF3 /* LTTextField.m in Sources */,
 				0A0F87471FE77B6C00DD9A67 /* LTFrendTrendsViewController.m in Sources */,
+				0AD8ED5B1FEB460100E9DD9D /* LTRecommentUserCell.m in Sources */,
+				0AD8ED541FEAAAEA00E9DD9D /* LTRecommendModel.m in Sources */,
 				0A0F87501FE782C900DD9A67 /* UIView+LTExtension.m in Sources */,
+				0A3D8C0D1FF0CEE7009A0FD8 /* LTTopicViewController.m in Sources */,
+				0AD8ED501FEA9D2400E9DD9D /* LTRecommendCategoryCell.m in Sources */,
+				0A3D8C021FEEB29A009A0FD8 /* LTRecommendTagViewController.m in Sources */,
 				0A0F87371FE76BE200DD9A67 /* main.m in Sources */,
+				0A63CD2B1FF33B6300115985 /* NSDate+LTExtension.m in Sources */,
 				0A0F873E1FE7743F00DD9A67 /* LTNavigationController.m in Sources */,
 				0A0F874D1FE7805D00DD9A67 /* LTTabBar.m in Sources */,
+				0A63CD231FF22C2A00115985 /* LTConst.m in Sources */,
 				0A0F87411FE7757900DD9A67 /* LTEssenceViewController.m in Sources */,
 				0A0F87441FE77B4D00DD9A67 /* LTNewViewController.m in Sources */,
 			);
@@ -520,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -570,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -588,7 +706,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "helen.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -603,7 +721,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "helen.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

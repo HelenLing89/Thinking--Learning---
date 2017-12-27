@@ -8,6 +8,7 @@
 
 #import "LTFrendTrendsViewController.h"
 #import "LTRecommendViewController.h"
+#import "LTLoginRegisterViewController.h"
 
 @interface LTFrendTrendsViewController ()
 
@@ -27,9 +28,10 @@
     LTRecommendViewController *vc = [[LTRecommendViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)loginRegister:(UIButton *)sender {
+    LTLoginRegisterViewController *rc = [[LTLoginRegisterViewController alloc] init];
+    [self presentViewController:rc animated:YES completion:nil];
+    
 }
 
 /*

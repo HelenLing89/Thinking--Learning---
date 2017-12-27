@@ -18,6 +18,7 @@
     
     UINavigationBar *bar = [UINavigationBar appearance];
     [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+   // [bar setShadowImage:[UIImage imageNamed:@"login_register_left_line"]];
     
 }
 - (void)viewDidLoad {
@@ -30,27 +31,29 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     if (self.childViewControllers.count > 0) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-          [btn setTitle:@"返回" forState:UIControlStateNormal];
+        [btn setTitle:@"返回" forState:UIControlStateNormal];
         [btn setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
         [btn setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
         btn.size = CGSizeMake(70, 30);
-        //btn.backgroundColor = [UIColor greenColor];
+        btn.backgroundColor = [UIColor greenColor];
         btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
        // [btn sizeToFit];
         btn.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
-        [btn setTitle:@"返回" forState:UIControlStateNormal];
         [btn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
         viewController.hidesBottomBarWhenPushed = YES;
     }
-    [super pushViewController:viewController animated:YES];
+    [super pushViewController:viewController animated:animated];
     
 }
+
+
+
 
 - (void)back{
     

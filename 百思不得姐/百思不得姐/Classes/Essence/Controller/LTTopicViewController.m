@@ -9,6 +9,7 @@
 #import "LTTopicViewController.h"
 #import "LTTopic.h"
 #import "LTTopicCell.h"
+#import "LTCommentViewController.h"
 #import <MJRefresh.h>
 #import <MJExtension.h>
 #import <SVProgressHUD.h>
@@ -19,6 +20,7 @@
 @property (nonatomic,strong) NSDictionary *paras;
 @property (nonatomic,strong) NSString *maxtime;
 @property (nonatomic,assign) NSInteger page;
+@property (nonatomic,assign) NSInteger lastSelectedIndex;
 @end
 
 @implementation LTTopicViewController
@@ -50,17 +52,39 @@
     CGFloat botton = self.tabBarController.tabBar.height;
     LTLog(@"%f",top);
     //self.tableView.insetsContentViewsToSafeArea = NO;
-    self.tableView.contentInset = UIEdgeInsetsMake(top-64, 0, botton, 0);
+    self.tableView.contentInset = UIEdgeInsetsMake(top, 0, botton, 0);
     self.tableView.scrollIndicatorInsets = self.tableView.contentInset;
     self.tableView.backgroundColor = [UIColor clearColor];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    //self.tableView.contentInsetAdjustmentBehavior = NO;
+   // self.automaticallyAdjustsScrollViewInsets = NO;
+    if (@available(iOS 11.0, *)) {
+        self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
     //self.navigationController.automaticallyAdjustsScrollViewInsets = NO;
-    //self.navigationController.navigationBar.translucent = NO;
+   // self.navigationController.navigationBar.translucent = NO;
+
+  
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([LTTopicCell class]) bundle:nil] forCellReuseIdentifier:@"topic"];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(buttonClick) name:LTTabBarDidSelectedNotification object:nil];
+}
+
+
+- (void)buttonClick{
+    if (self.lastSelectedIndex == self.tabBarController.selectedIndex && [self.view isShowingOnKeyWindow]) {
+        [self.tableView.mj_header beginRefreshing];
+    }
+    
+    self.lastSelectedIndex = self.tabBarController.selectedIndex;
+    
 }
 
 - (void)setUpFresh{
@@ -72,7 +96,8 @@
 }
 
 - (void)loadNewTopics{
-    self.tableView.mj_footer.hidden = YES;
+    [self.tableView.mj_footer endRefreshing];
+    
     NSMutableDictionary *paras = [NSMutableDictionary dictionary];
     paras[@"a"] = @"list";
     paras[@"c"] = @"data";
@@ -81,12 +106,15 @@
     [self.mgr GET:@"http://api.budejie.com/api/api_open.php" parameters:paras progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        if (self.paras != paras) return;
         self.maxtime = responseObject[@"info"][@"maxtime"];
-        LTLog(@"%@",self.maxtime);
+        //LTLog(@"%@",self.maxtime);
+        //[self.topics removeAllObjects];
         self.topics = [LTTopic mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        [responseObject writeToFile:@"/Users/lingtian/Desktop/list.plist" atomically:YES];
+        if (self.paras != paras) return;
         self.page = 0;
         [self.tableView reloadData];
+       // [self.tableView layoutIfNeeded];
         [self.tableView.mj_header endRefreshing];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         if (self.paras != paras) return;
@@ -98,6 +126,8 @@
 
 
 - (void)loadMoreTopics{
+    [self.tableView.mj_header endRefreshing];
+    
     NSMutableDictionary *paras = [NSMutableDictionary dictionary];
     paras[@"a"] = @"list";
     paras[@"c"] = @"data";
@@ -109,15 +139,17 @@
     [self.mgr GET:@"http://api.budejie.com/api/api_open.php" parameters:paras progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        if (self.paras != paras) return;
         self.maxtime = responseObject[@"info"][@"maxtime"];
         NSArray *topic = [LTTopic mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        [responseObject writeToFile:@"/Users/lingtian/Desktop/list.plist" atomically:YES];
         [self.topics addObjectsFromArray:topic];
+         if (self.paras != paras) return;
         self.page = page;
         [self.tableView reloadData];
         [self.tableView.mj_footer endRefreshing];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        if (self.paras != self.paras) return;
         [self.tableView.mj_footer endRefreshing];
         [SVProgressHUD showErrorWithStatus:@"加载失败!"];
     }];
@@ -139,13 +171,22 @@
     
     LTTopicCell *cell = [tableView dequeueReusableCellWithIdentifier:@"topic"];
     cell.topic = self.topics[indexPath.row];
+    //[self.tableView reloadData];
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    
-    return 200;
+    LTTopic *topic = self.topics[indexPath.row];
+   // [self.tableView reloadData];
+    return topic.cellHeight;
+}
+
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    LTCommentViewController *vc = [[LTCommentViewController alloc] init];
+    vc.topic = self.topics[indexPath.row];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 /*
 // Override to support conditional editing of the table view.

@@ -10,4 +10,6 @@
 @class LTTopic;
 @interface LTTopicCell : UITableViewCell
 @property (nonatomic,strong) LTTopic *topic;
+
++ (instancetype)cell;
 @end

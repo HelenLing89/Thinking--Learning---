@@ -9,3 +9,10 @@ typedef enum{
 UIKIT_EXTERN CGFloat const LTTitleViewH ;
 UIKIT_EXTERN CGFloat const LTTitleViewY ;
 UIKIT_EXTERN CGFloat const LTTopicCellMargin;
+UIKIT_EXTERN CGFloat const LTTopicCellTextY;
+UIKIT_EXTERN CGFloat const LTTopicCellBottonBarH;
+UIKIT_EXTERN CGFloat const LTTopicCellPictureMaxH;
+UIKIT_EXTERN CGFloat const LTTopicCellPictureBreakH;
+UIKIT_EXTERN NSString *const LTUserSexMale;
+UIKIT_EXTERN NSString *const LTUserSexFemale;
+UIKIT_EXTERN NSString *const LTTabBarDidSelectedNotification;

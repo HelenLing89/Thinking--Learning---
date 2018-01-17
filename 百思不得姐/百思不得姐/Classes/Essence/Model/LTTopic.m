@@ -7,8 +7,21 @@
 //
 
 #import "LTTopic.h"
-
+#import "LTComment.h"
+#import "LTUser.h"
+#import <MJExtension.h>
 @implementation LTTopic
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{
+      @"smallImage":@"image0",
+      @"middleImage":@"image1",
+      @"largeImage":@"image2",
+      @"ID":@"id",
+      @"top_cmt":@"top_cmt[0]"
+      };
+    
+}
 
 - (NSString *)create_time{
     NSDateFormatter *fmt = [[NSDateFormatter alloc] init];
@@ -35,6 +48,51 @@
         return _create_time;
     }
     
+}
+- (CGFloat)cellHeight{
+    if (_cellHeight == 0) {
+        CGSize MaxSize = CGSizeMake([UIScreen mainScreen].bounds.size.width - 4*LTTopicCellMargin, MAXFLOAT);
+        
+        CGFloat textH = [self.text boundingRectWithSize:MaxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14]} context:nil].size.height;
+        _cellHeight = LTTopicCellTextY + textH + LTTopicCellMargin;
+  
+    if (self.type == LTTopicTypePicture) {
+        CGFloat pictureW = MaxSize.width;
+        CGFloat pictureH = pictureW * self.height / self.width;
+        if (pictureH > LTTopicCellPictureMaxH) {
+            pictureH = LTTopicCellPictureBreakH;
+            self.bigPicture = YES;
+        }
+        
+        CGFloat pictureX = LTTopicCellMargin;
+        CGFloat pictureY = LTTopicCellTextY +textH + LTTopicCellMargin;
+        _pictureF = CGRectMake(pictureX,pictureY, pictureW, pictureH);
+        _cellHeight += pictureH + LTTopicCellMargin;
+    }else if (self.type == LTTopicTypeVoice){
+        CGFloat voiceW = MaxSize.width;
+        CGFloat voiceH = voiceW * self.height /self.width;
+        CGFloat voiceX = LTTopicCellMargin;
+        CGFloat voiceY = LTTopicCellTextY + textH +LTTopicCellMargin;
+        _voiceF = CGRectMake(voiceX, voiceY, voiceW, voiceH);
+        _cellHeight += voiceH + LTTopicCellMargin;
+    }else if(self.type == LTTopicTypeVideo){
+        CGFloat videoW = MaxSize.width;
+        CGFloat videoH = videoW *self.height /self.width;
+        CGFloat videoX = LTTopicCellMargin;
+        CGFloat videoY = LTTopicCellTextY + textH + LTTopicCellMargin;
+        _videoF = CGRectMake(videoX, videoY, videoW, videoH);
+        _cellHeight += videoH + LTTopicCellMargin;
+    }
+        
+        if (self.top_cmt) {
+            NSString *content = [NSString stringWithFormat:@"%@:%@",self.top_cmt.user.username,self.top_cmt.content];
+            CGFloat contentH = [content boundingRectWithSize:MaxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSForegroundColorAttributeName:[UIFont systemFontOfSize:13]} context:nil].size.height;
+            _cellHeight += contentH +LTTopicCellMargin;
+    }
+        _cellHeight += LTTopicCellBottonBarH + LTTopicCellMargin;
+        
+    }
+   return _cellHeight;
 }
 
 @end

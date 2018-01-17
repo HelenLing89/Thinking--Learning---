@@ -36,6 +36,7 @@
     self.titleLabel.y = self.width;
     self.titleLabel.width = self.width;
     self.titleLabel.height = self.height - self.width;
+    self.titleLabel.textAlignment = NSTextAlignmentCenter;
     LTLog(@"%@,%@",NSStringFromCGRect(self.imageView.frame),NSStringFromCGRect(self.titleLabel.frame));
     
 }

@@ -23,6 +23,7 @@
 		0A0F87561FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87551FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib */; };
 		0A0F875A1FE8CCC800DD9A67 /* LTRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */; };
 		0A0F875B1FE8CCC800DD9A67 /* LTRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */; };
+		0A1F6A801FFB7DCD00A5B1C5 /* LTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1F6A7F1FFB7DCD00A5B1C5 /* LTProgressView.m */; };
 		0A3D8C021FEEB29A009A0FD8 /* LTRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8C011FEEB29A009A0FD8 /* LTRecommendTagViewController.m */; };
 		0A3D8C061FEEB308009A0FD8 /* LTRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8C041FEEB308009A0FD8 /* LTRecommendTagCell.m */; };
 		0A3D8C071FEEB308009A0FD8 /* LTRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D8C051FEEB308009A0FD8 /* LTRecommendTagCell.xib */; };
@@ -33,6 +34,8 @@
 		0A63CD231FF22C2A00115985 /* LTConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63CD221FF22C2A00115985 /* LTConst.m */; };
 		0A63CD261FF25E0000115985 /* LTTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63CD251FF25E0000115985 /* LTTopic.m */; };
 		0A63CD2B1FF33B6300115985 /* NSDate+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63CD2A1FF33B6300115985 /* NSDate+LTExtension.m */; };
+		0A63CD2E1FF63DA400115985 /* LTTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63CD2D1FF63DA400115985 /* LTTopicPictureView.m */; };
+		0A63CD301FF63DBA00115985 /* LTTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A63CD2F1FF63DBA00115985 /* LTTopicPictureView.xib */; };
 		0AD8ED4C1FEA9A8600E9DD9D /* LTRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED4B1FEA9A8600E9DD9D /* LTRecommendCategory.m */; };
 		0AD8ED501FEA9D2400E9DD9D /* LTRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8ED4E1FEA9D2400E9DD9D /* LTRecommendCategoryCell.m */; };
 		0AD8ED511FEA9D2400E9DD9D /* LTRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD8ED4F1FEA9D2400E9DD9D /* LTRecommendCategoryCell.xib */; };
@@ -44,6 +47,24 @@
 		0AD8ED611FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD8ED5F1FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib */; };
 		326E66F21FEE1D6700D2BCF3 /* LTVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E66F11FEE1D6700D2BCF3 /* LTVerticalButton.m */; };
 		326E66F51FEE3B0A00D2BCF3 /* LTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E66F41FEE3B0A00D2BCF3 /* LTTextField.m */; };
+		741E6993200F2F9200EDF78D /* UIImage+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E6992200F2F9200EDF78D /* UIImage+LTExtension.m */; };
+		741E6996200F345000EDF78D /* UIImageView+LTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 741E6995200F345000EDF78D /* UIImageView+LTExtension.m */; };
+		744252051FFE759D00B83B44 /* LTPublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744252041FFE759D00B83B44 /* LTPublishView.m */; };
+		744252071FFE75BF00B83B44 /* LTPublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744252061FFE75BF00B83B44 /* LTPublishView.xib */; };
+		7442520A1FFFC64A00B83B44 /* LTTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744252091FFFC64A00B83B44 /* LTTopicVoiceView.m */; };
+		7442520C1FFFC66700B83B44 /* LTTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7442520B1FFFC66700B83B44 /* LTTopicVoiceView.xib */; };
+		74490B2C1FFD1479008777C9 /* LTShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74490B2A1FFD1479008777C9 /* LTShowPictureViewController.m */; };
+		74490B2D1FFD1479008777C9 /* LTShowPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74490B2B1FFD1479008777C9 /* LTShowPictureViewController.xib */; };
+		74A275F82003696600BF0F25 /* LTTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A275F72003696600BF0F25 /* LTTopicVideoView.m */; };
+		74A275FA2003BD5800BF0F25 /* LTTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74A275F92003BD5700BF0F25 /* LTTopicVideoView.xib */; };
+		74A275FD20046FB100BF0F25 /* LTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A275FC20046FB100BF0F25 /* LTUser.m */; };
+		74A276002004703300BF0F25 /* LTComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A275FF2004703300BF0F25 /* LTComment.m */; };
+		74A27604200472BF00BF0F25 /* LTCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A27602200472BF00BF0F25 /* LTCommentViewController.m */; };
+		74A27605200472BF00BF0F25 /* LTCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74A27603200472BF00BF0F25 /* LTCommentViewController.xib */; };
+		74A276092004CDAE00BF0F25 /* LTCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A276072004CDAE00BF0F25 /* LTCommentCell.m */; };
+		74A2760A2004CDAE00BF0F25 /* LTCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74A276082004CDAE00BF0F25 /* LTCommentCell.xib */; };
+		74A2760D2005AF6400BF0F25 /* LTCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A2760C2005AF6400BF0F25 /* LTCommentHeaderView.m */; };
+		74A27610200763A800BF0F25 /* LTTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A2760F200763A800BF0F25 /* LTTopWindow.m */; };
 		DAA2258AF0FAEF6664AD8768 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3511D973F69BEF4CF319B2C /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +99,8 @@
 		0A0F87571FE8CCC800DD9A67 /* LTRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendViewController.h; sourceTree = "<group>"; };
 		0A0F87581FE8CCC800DD9A67 /* LTRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendViewController.m; sourceTree = "<group>"; };
 		0A0F87591FE8CCC800DD9A67 /* LTRecommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTRecommendViewController.xib; sourceTree = "<group>"; };
+		0A1F6A7E1FFB7DCD00A5B1C5 /* LTProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTProgressView.h; sourceTree = "<group>"; };
+		0A1F6A7F1FFB7DCD00A5B1C5 /* LTProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTProgressView.m; sourceTree = "<group>"; };
 		0A3D8C001FEEB29A009A0FD8 /* LTRecommendTagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendTagViewController.h; sourceTree = "<group>"; };
 		0A3D8C011FEEB29A009A0FD8 /* LTRecommendTagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendTagViewController.m; sourceTree = "<group>"; };
 		0A3D8C031FEEB308009A0FD8 /* LTRecommendTagCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendTagCell.h; sourceTree = "<group>"; };
@@ -96,6 +119,9 @@
 		0A63CD251FF25E0000115985 /* LTTopic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopic.m; sourceTree = "<group>"; };
 		0A63CD291FF33B6300115985 /* NSDate+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LTExtension.h"; sourceTree = "<group>"; };
 		0A63CD2A1FF33B6300115985 /* NSDate+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LTExtension.m"; sourceTree = "<group>"; };
+		0A63CD2C1FF63DA400115985 /* LTTopicPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTopicPictureView.h; sourceTree = "<group>"; };
+		0A63CD2D1FF63DA400115985 /* LTTopicPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopicPictureView.m; sourceTree = "<group>"; };
+		0A63CD2F1FF63DBA00115985 /* LTTopicPictureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTTopicPictureView.xib; sourceTree = "<group>"; };
 		0AD8ED4A1FEA9A8600E9DD9D /* LTRecommendCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendCategory.h; sourceTree = "<group>"; };
 		0AD8ED4B1FEA9A8600E9DD9D /* LTRecommendCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTRecommendCategory.m; sourceTree = "<group>"; };
 		0AD8ED4D1FEA9D2400E9DD9D /* LTRecommendCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTRecommendCategoryCell.h; sourceTree = "<group>"; };
@@ -116,6 +142,36 @@
 		326E66F31FEE3B0A00D2BCF3 /* LTTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTextField.h; sourceTree = "<group>"; };
 		326E66F41FEE3B0A00D2BCF3 /* LTTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTextField.m; sourceTree = "<group>"; };
 		61ED438E78C923C415C8526B /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		741E6991200F2F9200EDF78D /* UIImage+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LTExtension.h"; sourceTree = "<group>"; };
+		741E6992200F2F9200EDF78D /* UIImage+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LTExtension.m"; sourceTree = "<group>"; };
+		741E6994200F345000EDF78D /* UIImageView+LTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LTExtension.h"; sourceTree = "<group>"; };
+		741E6995200F345000EDF78D /* UIImageView+LTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LTExtension.m"; sourceTree = "<group>"; };
+		744252031FFE759D00B83B44 /* LTPublishView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPublishView.h; sourceTree = "<group>"; };
+		744252041FFE759D00B83B44 /* LTPublishView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPublishView.m; sourceTree = "<group>"; };
+		744252061FFE75BF00B83B44 /* LTPublishView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTPublishView.xib; sourceTree = "<group>"; };
+		744252081FFFC64A00B83B44 /* LTTopicVoiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTopicVoiceView.h; sourceTree = "<group>"; };
+		744252091FFFC64A00B83B44 /* LTTopicVoiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopicVoiceView.m; sourceTree = "<group>"; };
+		7442520B1FFFC66700B83B44 /* LTTopicVoiceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTTopicVoiceView.xib; sourceTree = "<group>"; };
+		74490B291FFD1479008777C9 /* LTShowPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LTShowPictureViewController.h; path = "百思不得姐/Classes/Essence/Controller/LTShowPictureViewController.h"; sourceTree = SOURCE_ROOT; };
+		74490B2A1FFD1479008777C9 /* LTShowPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LTShowPictureViewController.m; path = "百思不得姐/Classes/Essence/Controller/LTShowPictureViewController.m"; sourceTree = SOURCE_ROOT; };
+		74490B2B1FFD1479008777C9 /* LTShowPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LTShowPictureViewController.xib; path = "百思不得姐/Classes/Essence/Controller/LTShowPictureViewController.xib"; sourceTree = SOURCE_ROOT; };
+		74A275F62003696600BF0F25 /* LTTopicVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTopicVideoView.h; sourceTree = "<group>"; };
+		74A275F72003696600BF0F25 /* LTTopicVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopicVideoView.m; sourceTree = "<group>"; };
+		74A275F92003BD5700BF0F25 /* LTTopicVideoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTTopicVideoView.xib; sourceTree = "<group>"; };
+		74A275FB20046FB100BF0F25 /* LTUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTUser.h; sourceTree = "<group>"; };
+		74A275FC20046FB100BF0F25 /* LTUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTUser.m; sourceTree = "<group>"; };
+		74A275FE2004703300BF0F25 /* LTComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTComment.h; sourceTree = "<group>"; };
+		74A275FF2004703300BF0F25 /* LTComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTComment.m; sourceTree = "<group>"; };
+		74A27601200472BF00BF0F25 /* LTCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCommentViewController.h; sourceTree = "<group>"; };
+		74A27602200472BF00BF0F25 /* LTCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCommentViewController.m; sourceTree = "<group>"; };
+		74A27603200472BF00BF0F25 /* LTCommentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTCommentViewController.xib; sourceTree = "<group>"; };
+		74A276062004CDAE00BF0F25 /* LTCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCommentCell.h; sourceTree = "<group>"; };
+		74A276072004CDAE00BF0F25 /* LTCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCommentCell.m; sourceTree = "<group>"; };
+		74A276082004CDAE00BF0F25 /* LTCommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTCommentCell.xib; sourceTree = "<group>"; };
+		74A2760B2005AF6400BF0F25 /* LTCommentHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCommentHeaderView.h; sourceTree = "<group>"; };
+		74A2760C2005AF6400BF0F25 /* LTCommentHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCommentHeaderView.m; sourceTree = "<group>"; };
+		74A2760E200763A800BF0F25 /* LTTopWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTTopWindow.h; sourceTree = "<group>"; };
+		74A2760F200763A800BF0F25 /* LTTopWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTTopWindow.m; sourceTree = "<group>"; };
 		E3511D973F69BEF4CF319B2C /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02B8A7E79CEC1881B34A55E /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +242,10 @@
 				0A0F87531FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m */,
 				0A63CD291FF33B6300115985 /* NSDate+LTExtension.h */,
 				0A63CD2A1FF33B6300115985 /* NSDate+LTExtension.m */,
+				741E6991200F2F9200EDF78D /* UIImage+LTExtension.h */,
+				741E6992200F2F9200EDF78D /* UIImage+LTExtension.m */,
+				741E6994200F345000EDF78D /* UIImageView+LTExtension.h */,
+				741E6995200F345000EDF78D /* UIImageView+LTExtension.m */,
 				0A0F87231FE76BE200DD9A67 /* main.m */,
 				0A0F87511FE7862100DD9A67 /* PrefixHeader.h */,
 				0A0F87221FE76BE200DD9A67 /* Controller */,
@@ -202,6 +262,9 @@
 				0A0F873A1FE7717800DD9A67 /* LTTabBarController.m */,
 				0A0F873C1FE7743F00DD9A67 /* LTNavigationController.h */,
 				0A0F873D1FE7743F00DD9A67 /* LTNavigationController.m */,
+				744252031FFE759D00B83B44 /* LTPublishView.h */,
+				744252041FFE759D00B83B44 /* LTPublishView.m */,
+				744252061FFE75BF00B83B44 /* LTPublishView.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -218,6 +281,8 @@
 			children = (
 				0A0F874B1FE7805D00DD9A67 /* LTTabBar.h */,
 				0A0F874C1FE7805D00DD9A67 /* LTTabBar.m */,
+				74A2760E200763A800BF0F25 /* LTTopWindow.h */,
+				74A2760F200763A800BF0F25 /* LTTopWindow.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +362,12 @@
 				0A3D8C011FEEB29A009A0FD8 /* LTRecommendTagViewController.m */,
 				0A3D8C0B1FF0CEE7009A0FD8 /* LTTopicViewController.h */,
 				0A3D8C0C1FF0CEE7009A0FD8 /* LTTopicViewController.m */,
+				74490B291FFD1479008777C9 /* LTShowPictureViewController.h */,
+				74490B2A1FFD1479008777C9 /* LTShowPictureViewController.m */,
+				74490B2B1FFD1479008777C9 /* LTShowPictureViewController.xib */,
+				74A27601200472BF00BF0F25 /* LTCommentViewController.h */,
+				74A27602200472BF00BF0F25 /* LTCommentViewController.m */,
+				74A27603200472BF00BF0F25 /* LTCommentViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +379,10 @@
 				0A3D8C091FEF3359009A0FD8 /* LTTags.m */,
 				0A63CD241FF25E0000115985 /* LTTopic.h */,
 				0A63CD251FF25E0000115985 /* LTTopic.m */,
+				74A275FB20046FB100BF0F25 /* LTUser.h */,
+				74A275FC20046FB100BF0F25 /* LTUser.m */,
+				74A275FE2004703300BF0F25 /* LTComment.h */,
+				74A275FF2004703300BF0F25 /* LTComment.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,6 +396,22 @@
 				0A3D8C0E1FF13988009A0FD8 /* LTTopicCell.h */,
 				0A3D8C0F1FF13988009A0FD8 /* LTTopicCell.m */,
 				0A3D8C101FF13988009A0FD8 /* LTTopicCell.xib */,
+				0A63CD2C1FF63DA400115985 /* LTTopicPictureView.h */,
+				0A63CD2D1FF63DA400115985 /* LTTopicPictureView.m */,
+				0A63CD2F1FF63DBA00115985 /* LTTopicPictureView.xib */,
+				744252081FFFC64A00B83B44 /* LTTopicVoiceView.h */,
+				744252091FFFC64A00B83B44 /* LTTopicVoiceView.m */,
+				7442520B1FFFC66700B83B44 /* LTTopicVoiceView.xib */,
+				74A275F62003696600BF0F25 /* LTTopicVideoView.h */,
+				74A275F72003696600BF0F25 /* LTTopicVideoView.m */,
+				74A275F92003BD5700BF0F25 /* LTTopicVideoView.xib */,
+				0A1F6A7E1FFB7DCD00A5B1C5 /* LTProgressView.h */,
+				0A1F6A7F1FFB7DCD00A5B1C5 /* LTProgressView.m */,
+				74A2760B2005AF6400BF0F25 /* LTCommentHeaderView.h */,
+				74A2760C2005AF6400BF0F25 /* LTCommentHeaderView.m */,
+				74A276062004CDAE00BF0F25 /* LTCommentCell.h */,
+				74A276072004CDAE00BF0F25 /* LTCommentCell.m */,
+				74A276082004CDAE00BF0F25 /* LTCommentCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -443,6 +534,7 @@
 				TargetAttributes = {
 					0A0F87051FE767DB00DD9A67 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -474,11 +566,18 @@
 				0AD8ED5C1FEB460100E9DD9D /* LTRecommentUserCell.xib in Resources */,
 				0AD8ED611FEBF95D00E9DD9D /* LTLoginRegisterViewController.xib in Resources */,
 				0A0F87561FE8CBC800DD9A67 /* LTFrendTrendsViewController.xib in Resources */,
+				74A275FA2003BD5800BF0F25 /* LTTopicVideoView.xib in Resources */,
+				74A2760A2004CDAE00BF0F25 /* LTCommentCell.xib in Resources */,
 				0A3D8C121FF13988009A0FD8 /* LTTopicCell.xib in Resources */,
 				0A0F87161FE767DB00DD9A67 /* LaunchScreen.storyboard in Resources */,
+				7442520C1FFFC66700B83B44 /* LTTopicVoiceView.xib in Resources */,
 				0A3D8C071FEEB308009A0FD8 /* LTRecommendTagCell.xib in Resources */,
+				74490B2D1FFD1479008777C9 /* LTShowPictureViewController.xib in Resources */,
+				744252071FFE75BF00B83B44 /* LTPublishView.xib in Resources */,
+				74A27605200472BF00BF0F25 /* LTCommentViewController.xib in Resources */,
 				0A0F87131FE767DB00DD9A67 /* Assets.xcassets in Resources */,
 				0A0F875B1FE8CCC800DD9A67 /* LTRecommendViewController.xib in Resources */,
+				0A63CD301FF63DBA00115985 /* LTTopicPictureView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +644,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A63CD261FF25E0000115985 /* LTTopic.m in Sources */,
+				74A276092004CDAE00BF0F25 /* LTCommentCell.m in Sources */,
+				74490B2C1FFD1479008777C9 /* LTShowPictureViewController.m in Sources */,
 				0A0F87541FE8C3F000DD9A67 /* UIBarButtonItem+LTExtension.m in Sources */,
 				0AD8ED601FEBF95D00E9DD9D /* LTLoginRegisterViewController.m in Sources */,
 				0A0F874A1FE77B8500DD9A67 /* LTMeViewController.m in Sources */,
@@ -552,23 +653,35 @@
 				0AD8ED4C1FEA9A8600E9DD9D /* LTRecommendCategory.m in Sources */,
 				0A3D8C0A1FEF3359009A0FD8 /* LTTags.m in Sources */,
 				0A3D8C061FEEB308009A0FD8 /* LTRecommendTagCell.m in Sources */,
+				741E6996200F345000EDF78D /* UIImageView+LTExtension.m in Sources */,
 				0A0F875A1FE8CCC800DD9A67 /* LTRecommendViewController.m in Sources */,
+				74A27610200763A800BF0F25 /* LTTopWindow.m in Sources */,
 				326E66F21FEE1D6700D2BCF3 /* LTVerticalButton.m in Sources */,
 				0AD8ED571FEB45DD00E9DD9D /* LTRecommentUser.m in Sources */,
+				741E6993200F2F9200EDF78D /* UIImage+LTExtension.m in Sources */,
 				0A0F873B1FE7717800DD9A67 /* LTTabBarController.m in Sources */,
+				74A276002004703300BF0F25 /* LTComment.m in Sources */,
 				0A3D8C111FF13988009A0FD8 /* LTTopicCell.m in Sources */,
 				326E66F51FEE3B0A00D2BCF3 /* LTTextField.m in Sources */,
 				0A0F87471FE77B6C00DD9A67 /* LTFrendTrendsViewController.m in Sources */,
 				0AD8ED5B1FEB460100E9DD9D /* LTRecommentUserCell.m in Sources */,
 				0AD8ED541FEAAAEA00E9DD9D /* LTRecommendModel.m in Sources */,
+				74A275F82003696600BF0F25 /* LTTopicVideoView.m in Sources */,
+				0A1F6A801FFB7DCD00A5B1C5 /* LTProgressView.m in Sources */,
 				0A0F87501FE782C900DD9A67 /* UIView+LTExtension.m in Sources */,
 				0A3D8C0D1FF0CEE7009A0FD8 /* LTTopicViewController.m in Sources */,
+				74A2760D2005AF6400BF0F25 /* LTCommentHeaderView.m in Sources */,
 				0AD8ED501FEA9D2400E9DD9D /* LTRecommendCategoryCell.m in Sources */,
+				74A27604200472BF00BF0F25 /* LTCommentViewController.m in Sources */,
 				0A3D8C021FEEB29A009A0FD8 /* LTRecommendTagViewController.m in Sources */,
+				74A275FD20046FB100BF0F25 /* LTUser.m in Sources */,
 				0A0F87371FE76BE200DD9A67 /* main.m in Sources */,
 				0A63CD2B1FF33B6300115985 /* NSDate+LTExtension.m in Sources */,
 				0A0F873E1FE7743F00DD9A67 /* LTNavigationController.m in Sources */,
+				0A63CD2E1FF63DA400115985 /* LTTopicPictureView.m in Sources */,
+				7442520A1FFFC64A00B83B44 /* LTTopicVoiceView.m in Sources */,
 				0A0F874D1FE7805D00DD9A67 /* LTTabBar.m in Sources */,
+				744252051FFE759D00B83B44 /* LTPublishView.m in Sources */,
 				0A63CD231FF22C2A00115985 /* LTConst.m in Sources */,
 				0A0F87411FE7757900DD9A67 /* LTEssenceViewController.m in Sources */,
 				0A0F87441FE77B4D00DD9A67 /* LTNewViewController.m in Sources */,
@@ -701,11 +814,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "helen.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "百思不得姐/Classes/Essence/Controller/百思不得姐-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -716,11 +833,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "helen.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "百思不得姐/Classes/Essence/Controller/百思不得姐-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

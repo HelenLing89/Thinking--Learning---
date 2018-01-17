@@ -17,10 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+//当statusBar不由控制器控制时,基于application,使用这个方法
+  [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
 }
 - (IBAction)back:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
 }
 
 - (IBAction)loginOrRegisterButtonClick:(UIButton *)sender {
@@ -49,6 +55,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+// statusBar由控制器管理的时候, 用这个方法
 - (UIStatusBarStyle)preferredStatusBarStyle{
     
     return UIStatusBarStyleLightContent;

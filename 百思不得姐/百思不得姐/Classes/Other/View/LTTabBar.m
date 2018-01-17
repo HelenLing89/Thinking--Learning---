@@ -7,6 +7,7 @@
 //
 
 #import "LTTabBar.h"
+#import "LTPublishView.h"
 @interface LTTabBar()
 @property (nonatomic,strong) UIButton *publishBtn;
 @end
@@ -19,10 +20,19 @@
         [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
         publishBtn.size = publishBtn.currentBackgroundImage.size;
+        [publishBtn addTarget:self action:@selector(publishClick) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:publishBtn];
         self.publishBtn = publishBtn;
 }
     return self;
+}
+
+- (void)publishClick{
+    LTPublishView *publish = [LTPublishView publishView];
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    publish.frame = window.frame;
+    [window addSubview:publish];
+    
 }
 
 - (void)layoutSubviews{

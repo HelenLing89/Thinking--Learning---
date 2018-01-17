@@ -7,5 +7,6 @@ target :'百思不得姐' do
     pod "SVProgressHUD"
     pod "MJExtension"
     pod "MJRefresh"
-    
+    pod "DACircularProgress"
+    pod "pop"
 end

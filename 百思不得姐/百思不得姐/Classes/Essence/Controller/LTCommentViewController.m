@@ -72,6 +72,10 @@
     [self.manager GET:@"http://api.budejie.com/api/api_open.php" parameters:paras progress:^(NSProgress * _Nonnull downloadProgress) {
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         [responseObject writeToFile:@"/Users/lingtian/Desktop/comment.plist" atomically:YES];
+        if ([responseObject isKindOfClass:[NSDictionary class]]){
+            [self.tableView.mj_header endRefreshing];
+            return ;
+        }
         self.hotcomment = [LTComment mj_objectArrayWithKeyValuesArray:responseObject[@"hot"]];
         self.latestComment = [LTComment mj_objectArrayWithKeyValuesArray:responseObject[@"data"]];
         self.page = 1;

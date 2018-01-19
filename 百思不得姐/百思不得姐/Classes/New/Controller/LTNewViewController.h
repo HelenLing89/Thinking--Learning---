@@ -6,8 +6,8 @@
 //  Copyright © 2017年 helen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LTEssenceViewController.h"
 
-@interface LTNewViewController : UIViewController
+@interface LTNewViewController : LTEssenceViewController
 
 @end

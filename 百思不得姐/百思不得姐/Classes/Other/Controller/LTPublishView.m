@@ -8,6 +8,8 @@
 
 #import "LTPublishView.h"
 #import "LTVerticalButton.h"
+#import "LTPostWordViewController.h"
+#import "LTNavigationController.h"
 #import <POP.h>
 #define LTRootView [UIApplication sharedApplication].keyWindow.rootViewController.view
 @implementation LTPublishView
@@ -81,6 +83,11 @@
             NSLog(@"发视频");
         }else if (button.tag == 1){
             NSLog(@"发图片");
+            
+        }else if (button.tag == 2){
+            LTPostWordViewController *post = [[LTPostWordViewController alloc] init];
+            LTNavigationController *nav = [[LTNavigationController alloc] initWithRootViewController:post];
+            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
             
         }
     }];

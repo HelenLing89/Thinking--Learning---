@@ -16,3 +16,6 @@ UIKIT_EXTERN CGFloat const LTTopicCellPictureBreakH;
 UIKIT_EXTERN NSString *const LTUserSexMale;
 UIKIT_EXTERN NSString *const LTUserSexFemale;
 UIKIT_EXTERN NSString *const LTTabBarDidSelectedNotification;
+UIKIT_EXTERN CGFloat const LTTagMargin;
+UIKIT_EXTERN CGFloat const LTTagH;
+

@@ -9,3 +9,6 @@ CGFloat const LTTopicCellPictureBreakH = 250;
 NSString *const LTUserSexMale = @"m";
 NSString *const LTUserSexFemale = @"f";
 NSString *const LTTabBarDidSelectedNotification = @"LTTabBarDidSelectedNotification";
+
+CGFloat const LTTagMargin = 5;
+CGFloat const LTTagH = 25;

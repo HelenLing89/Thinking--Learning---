@@ -37,7 +37,7 @@
     [self setUp:newVc image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon" title:@"新帖"];
     LTFrendTrendsViewController *frendTrendsVc = [[LTFrendTrendsViewController alloc] init];
     [self setUp:frendTrendsVc image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon" title:@"关注"];
-    LTMeViewController *meVc = [[LTMeViewController alloc] init];
+    LTMeViewController *meVc = [[LTMeViewController alloc] initWithStyle:UITableViewStyleGrouped];
     [self setUp:meVc image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon" title:@"我"];
     
     [self setValue:[[LTTabBar alloc] init] forKey:@"tabBar"];

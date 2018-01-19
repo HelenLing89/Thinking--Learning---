@@ -10,6 +10,7 @@
 #import "LTTopic.h"
 #import "LTTopicCell.h"
 #import "LTCommentViewController.h"
+#import "LTNewViewController.h"
 #import <MJRefresh.h>
 #import <MJExtension.h>
 #import <SVProgressHUD.h>
@@ -95,11 +96,15 @@
     
 }
 
+- (NSString *)a{
+    return [self.parentViewController isKindOfClass:[LTNewViewController class]] ? @"newlist" :@"list";
+}
+
 - (void)loadNewTopics{
     [self.tableView.mj_footer endRefreshing];
     
     NSMutableDictionary *paras = [NSMutableDictionary dictionary];
-    paras[@"a"] = @"list";
+    paras[@"a"] = self.a;
     paras[@"c"] = @"data";
     paras[@"type"] = @(self.type);
     self.paras = paras;
@@ -129,7 +134,7 @@
     [self.tableView.mj_header endRefreshing];
     
     NSMutableDictionary *paras = [NSMutableDictionary dictionary];
-    paras[@"a"] = @"list";
+    paras[@"a"] = self.a;
     paras[@"c"] = @"data";
     NSInteger page = self.page +1 ;
     paras[@"page"] = @(page);

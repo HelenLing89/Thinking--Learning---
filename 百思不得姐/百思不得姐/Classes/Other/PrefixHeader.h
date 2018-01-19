@@ -26,6 +26,7 @@
 #define LTGlobalBg LTRGBColor(223,223,223)
 #define screenW [UIApplication sharedApplication].keyWindow.bounds.size.width
 #define screenH [UIApplication sharedApplication].keyWindow.bounds.size.height
-
+#define LTTagBg LTRGBColor(74, 139, 209)
+#define LTTagFont [UIFont systemFontOfSize:14]
 
 #endif 

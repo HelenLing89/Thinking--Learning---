@@ -7,8 +7,10 @@
 //
 
 #import "LTMeViewController.h"
+#import "LTMeCell.h"
+#import "LTMeFooterView.h"
 
-@interface LTMeViewController ()
+@interface LTMeViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @end
 
@@ -21,7 +23,18 @@
     UIBarButtonItem *settingItem = [UIBarButtonItem itemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(setClick)];
     UIBarButtonItem *moonItem = [UIBarButtonItem itemWithImage:@"mine-moon-icon" highImage:@"mine-moon-icon-click" target:self action:@selector(moonClick)];
     self.navigationItem.rightBarButtonItems = @[settingItem,moonItem];
-   
+    [self setUpTableView];
+}
+
+- (void)setUpTableView{
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.tableView registerClass:[LTMeCell class] forCellReuseIdentifier:@"me"];
+    self.tableView.sectionHeaderHeight = 0;
+    self.tableView.sectionFooterHeight = LTTopicCellMargin;
+    self.tableView.contentInset = UIEdgeInsetsMake(LTTopicCellMargin - 35,0, 0, 0);
+    //self.tableView.contentSize = CGSizeMake(screenW, screenH);
+    self.tableView.tableFooterView = [[LTMeFooterView alloc] init];
+    
 }
 
 - (void)setClick{
@@ -34,10 +47,32 @@
     
     LTLogFunc;
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    
+    return 2;
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return 1;
+    
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    LTMeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"me"];
+    if (indexPath.section == 0) {
+        cell.imageView.image = [UIImage imageNamed:@"setup-head-default"];
+        cell.textLabel.text = @"登录/注册";
+    }else if (indexPath.section == 1){
+        cell.textLabel.text = @"离线下载";
+    
+    }
+    
+    return cell;
+    }
+    
+
 
 /*
 #pragma mark - Navigation
